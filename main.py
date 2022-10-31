@@ -88,8 +88,8 @@ while True:
     #print(f"Cord X: {xID}  Cord Y: {yID}")
     desenharJogo()
     desenharNoBloco()
-    verVitoria()
     pygame.display.update() #ATUALIZAR AS INFORMAÇÕES DE TELA A CADA FRAME
+    verVitoria()
     clock.tick(60) #QUANTAS VEZES ESSE CODIGO VAI SE REPETIR POR SEGUNDO
     #print(clock.get_fps())
     for event in pygame.event.get():
@@ -111,3 +111,5 @@ while True:
     
                     
         
+        
+   
